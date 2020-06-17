@@ -4,12 +4,10 @@
 
 .page-footer__container {
   @extend %container;
-}
 
-.page-footer__row {
   display: flex;
-  padding-top: 48px;
-  padding-bottom: 28px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   align-items: baseline;
   justify-content: space-between;
 }
@@ -142,17 +140,4 @@
   margin-left: 10px;
 
   fill: currentColor;
-}
-
-.copyright {
-  margin: 0;
-  padding-top: 18px;
-  padding-bottom: 21px;
-
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  color: $sign-text-color;
-
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }

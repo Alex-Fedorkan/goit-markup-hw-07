@@ -217,9 +217,8 @@
 
 .modal__close-button {
   position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(9px, -9px);
+  top: 8px;
+  right: 8px;
 
   @extend %centered;
   width: 30px;
@@ -229,8 +228,15 @@
 
   background: $primary-bg-color;
 
-  border: none;
   border-radius: 50%;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal__icon-close {
+  fill: #000;
+
+  .modal__close-button:hover &,
+  .modal__close-button:focus & {
+    fill: $accent-color;
+  }
 }

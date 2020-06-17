@@ -2,21 +2,11 @@
   position: relative;
 
   padding-top: 94px;
-  padding-bottom: 94px;
+  // padding-bottom: 94px;
 }
 
 .section-advantages__container {
   @extend %container;
-
-  &::after {
-    position: absolute;
-    bottom: 0;
-
-    content: '';
-    width: 1170px;
-
-    border-bottom: 1px solid #ececec;
-  }
 }
 
 .section-advantages__title--visually-hidden {

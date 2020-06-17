@@ -7,6 +7,10 @@
   @extend %container;
 }
 
+.section-portfolio__title--visually-hidden {
+  @extend %visually-hidden;
+}
+
 .section-portfolio__row {
   display: flex;
   margin-bottom: 50px;
